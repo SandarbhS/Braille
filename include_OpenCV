@@ -1,0 +1,4 @@
+Download - https://opencv.org/releases.html
+Add module in Android Studio
+Select the OpenCV-android-sdk/sdk/java folderin dialog
+Copy OpenCV-android-sdk/sdk/native/libs to openCVLibrary331/src/main and rename it as jniLibs
