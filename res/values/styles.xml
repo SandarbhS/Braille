@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Braille_style" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/buttonBg</item>
+        <item name="android:textColor">@color/buttonText</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:alertDialogTheme">@style/DialogTheme</item>
+
+    </style>
+
+<style name="DialogTheme" parent="Braille_style">
+    <item name="android:windowAnimationStyle">@style/Animation.AppCompat.Dialog</item>
+    <item name="android:windowBackground">@color/offWhiteBG</item>
+    <item name="android:windowTitleStyle">@style/Braille_style</item>
+    <item name="android:buttonBarStyle">@style/Widget.AppCompat.Button.Colored</item>
+    <item name="android:borderlessButtonStyle">@style/Widget.AppCompat.Button.Colored</item>
+</style>
+
+
+</resources>
